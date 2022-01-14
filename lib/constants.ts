@@ -22,6 +22,8 @@ export const SITE_NAME_MULTILINE = ['Snyder', 'Nation'];
 export const SITE_NAME = 'Snyder Nation';
 export const META_DESCRIPTION =
   'This is a fan-made website created by collaboration of designers, and developers for their mutual love towards the work of visionary director Mr. Zack Snyder.';
+  export const META_DESCRIPTIONN =
+  'This is a collection of essays, papers and are collected to show our love towards the work of visionary director Mr. Zack Snyder.';
 export const SITE_DESCRIPTION =
   'An informative online fan community, free for everyone.';
 export const DATE = 'March 18, 2021';
