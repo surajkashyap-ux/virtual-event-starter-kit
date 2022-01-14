@@ -40,38 +40,12 @@ export const CODE_OF_CONDUCT =
 export const REPO = 'https://discord.com/invite/7qhMZnMU';
 export const SAMPLE_TICKET_NUMBER = 1234;
 export const NAVIGATION = [
-  {
-    name: 'Stage A',
-    route: '/stage/a'
-  },
-  {
-    name: 'Stage C',
-    route: '/stage/c'
-  },
-  {
-    name: 'Stage M',
-    route: '/stage/m'
-  },
-  {
-    name: 'Stage E',
-    route: '/stage/e'
-  },
-  {
-    name: 'Schedule',
-    route: '/schedule'
-  },
-  {
-    name: 'Speakers',
-    route: '/speakers'
-  },
+ 
   {
     name: 'Expo',
     route: '/expo'
   },
-  {
-    name: 'Jobs',
-    route: '/jobs'
-  }
+ 
 ];
 
 export type TicketGenerationState = 'default' | 'loading';
