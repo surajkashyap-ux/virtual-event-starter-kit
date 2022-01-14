@@ -34,7 +34,7 @@ export default function Hero() {
       </h2>
       <h1 className={cn(styleUtils.appear, styleUtils['appear-third'], styles.hero)}>
         SNYDER NATION
-        <br className={styleUtils['show-on-desktop']} /> The global fan website
+        <br className={styleUtils['show-on-desktop']} /> 
       </h1>
       <h2
         className={cn(
@@ -50,7 +50,7 @@ export default function Hero() {
         
         
         <p>
-          <strong>Online</strong>
+          <strong>The global fan website</strong>
         </p>
       </div>
     </div>
