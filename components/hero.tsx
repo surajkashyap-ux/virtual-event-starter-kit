@@ -50,7 +50,7 @@ export default function Hero() {
         
         
         <p>
-          <strong>The global fan website</strong>
+          <strong>The global fan community</strong>
         </p>
       </div>
     </div>
