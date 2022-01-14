@@ -17,7 +17,7 @@
 import cn from 'classnames';
 import styleUtils from './utils.module.css';
 import styles from './hero.module.css';
-import { BRAND_NAME, DATE, SITE_DESCRIPTION } from '@lib/constants';
+import { BRAND_NAME, SITE_DESCRIPTION } from '@lib/constants';
 
 export default function Hero() {
   return (
@@ -47,7 +47,7 @@ export default function Hero() {
         {SITE_DESCRIPTION}
       </h2>
       <div className={cn(styleUtils.appear, styleUtils['appear-fourth'], styles.info)}>
-        <p>{DATE}</p>
+        
         <div className={styles['description-separator']} />
         <p>
           <strong>Online</strong>
