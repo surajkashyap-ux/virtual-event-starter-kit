@@ -45,7 +45,10 @@ export const NAVIGATION = [
     name: 'Expo',
     route: '/expo'
   },
- 
+  {
+    name: 'Code of Conduct',
+    route: 'https://snydernation.notion.site/snydernation/Code-of-Conduct-487d8952a761440bb50b0ad72c6e4093'
+  }
 ];
 
 export type TicketGenerationState = 'default' | 'loading';
