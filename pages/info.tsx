@@ -32,7 +32,7 @@ type Props = {
 export default function Jobs({ jobs }: Props) {
   const meta = {
     title: 'Informative links',
-    description: META_DESCRIPTION
+    description: META_DESCRIPTIONN
   };
 
   return (
