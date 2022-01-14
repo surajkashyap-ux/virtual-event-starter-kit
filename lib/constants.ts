@@ -47,7 +47,7 @@ export const NAVIGATION = [
   },
   {
     name: 'Info',
-    route: '/jobs'
+    route: '/info'
   },
   {
     name: 'Code of Conduct',
