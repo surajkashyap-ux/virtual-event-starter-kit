@@ -23,7 +23,7 @@ import Header from '@components/header';
 
 import { getAllJobs } from '@lib/cms-api';
 import { Job } from '@lib/types';
-import { META_DESCRIPTION } from '@lib/constants';
+import { META_DESCRIPTIONN } from '@lib/constants';
 
 type Props = {
   jobs: Job[];
