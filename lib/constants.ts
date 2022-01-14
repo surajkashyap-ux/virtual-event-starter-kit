@@ -46,6 +46,10 @@ export const NAVIGATION = [
     route: '/expo'
   },
   {
+    name: 'Info',
+    route: '/jobs'
+  },
+  {
     name: 'Code of Conduct',
     route: 'https://snydernation.notion.site/snydernation/Code-of-Conduct-487d8952a761440bb50b0ad72c6e4093'
   }
