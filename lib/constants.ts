@@ -39,7 +39,7 @@ export const COPYRIGHT_HOLDER = process.env.NEXT_PUBLIC_COPYRIGHT_HOLDER;
 
 export const CODE_OF_CONDUCT =
   'https://snydernation.notion.site/snydernation/Code-of-Conduct-487d8952a761440bb50b0ad72c6e4093';
-export const REPO = 'https://discord.com/invite/7qhMZnMU';
+export const REPO = 'https://discord.gg/gj6rQukCdh';
 export const SAMPLE_TICKET_NUMBER = 1234;
 export const NAVIGATION = [
  
