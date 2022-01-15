@@ -53,7 +53,7 @@ export const NAVIGATION = [
   },
   {
     name: 'MoS',
-    route: '/stage/a'
+    route: '/stage/mos'
   },
   {
     name: 'Code',
