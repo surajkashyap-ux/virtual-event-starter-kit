@@ -35,9 +35,7 @@
    });
  
    const updatedStages = response.data || [];
-   const updatedStage = updatedStages.find((s: Stage) => s.slug === stage.slug) || stage;
-   const { loginStatus, mutate } = useLoginStatus();
- 
+   const updatedStage = updatedStages.find((s: Stage) => s.slug === stage.slug) || stage; 
    return (
      <div className={styles.container}>
        <div className={styles.streamContainer}>
