@@ -52,12 +52,8 @@ export const NAVIGATION = [
     route: '/info'
   },
   {
-    name: 'MoS',
+    name: 'Watch Parties',
     route: '/stage/mos'
-  },
-  {
-    name: 'BvS',
-    route: '/stage/bvs'
   },
   {
     name: 'Code',
