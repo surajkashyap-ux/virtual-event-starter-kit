@@ -38,7 +38,7 @@ function CompanyJobs({ jobs }: Props) {
               <p className={styles.company}>{job.companyName}</p>
               <p className={styles.description}>{job.description}</p>
             </div>
-            <p className={styles.link}>
+            <p className={styles.button}>
               Learn More
               <svg
                 className={styles.icon}
@@ -76,7 +76,7 @@ export default function JobsGrid({ jobs }: Props) {
         <div key={companyName} className={styles.companyRow}>
           <div className={styles.rowHeader}>
             <h2 className={styles.companyName}>{companyName}</h2>
-           
+   
           </div>
           <CompanyJobs jobs={companies[companyName]} />
         </div>
