@@ -21,7 +21,7 @@ import { COPYRIGHT_HOLDER, SITE_NAME, CODE_OF_CONDUCT, LEGAL_URL } from '@lib/co
 export function HostedByVercel() {
   return (
     <a
-      href="https://twitter.com/zeussn214"
+      href="https://twitter.com/drzeussn"
       className={cn(styles['footer-link'], styles['footer-logo'])}
       target="_blank"
       rel="noopener noreferrer"
