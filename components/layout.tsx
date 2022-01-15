@@ -47,7 +47,7 @@ export default function Layout({ children, className, hideNav, layoutStyles }: P
               <Link href="/">
                 {/* eslint-disable-next-line */}
                 <a className={styles.logo}>
-                  <Logo />
+                <img src={`https://www.datocms-assets.com/61317/1642262154-sn_logo.png`} />
                 </a>
               </Link>
             </div>
