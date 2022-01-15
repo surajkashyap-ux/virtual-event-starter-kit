@@ -88,7 +88,7 @@ export default function SponsorSection({ sponsor }: Props) {
               type="button"
               className={cn(styles.button, styles['button-link'])}
             >
-              Chat on Discord
+              Join us on Discord
             </a>
           </div>
           <div className={styles.resources}>
