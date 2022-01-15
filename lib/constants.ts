@@ -52,7 +52,7 @@ export const NAVIGATION = [
     route: '/info'
   },
   {
-    name: 'Code',
+    name: 'Code of Conduct',
     route: 'https://snydernation.notion.site/snydernation/Code-of-Conduct-487d8952a761440bb50b0ad72c6e4093'
   }
 ];
