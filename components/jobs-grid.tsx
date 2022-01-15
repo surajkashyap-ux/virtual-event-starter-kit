@@ -39,7 +39,7 @@ function CompanyJobs({ jobs }: Props) {
               <p className={styles.description}>{job.description}</p>
             </div>
             <p className={styles.button}>
-              Learn More
+              Read it here
               <svg
                 className={styles.icon}
                 viewBox="0 0 24 24"
