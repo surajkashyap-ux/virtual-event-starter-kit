@@ -56,6 +56,10 @@ export const NAVIGATION = [
     route: '/stage/mos'
   },
   {
+    name: 'BvS',
+    route: '/stage/bvs'
+  },
+  {
     name: 'Code',
     route: 'https://snydernation.notion.site/snydernation/Code-of-Conduct-487d8952a761440bb50b0ad72c6e4093'
   }
