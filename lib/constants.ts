@@ -27,7 +27,7 @@ export const META_DESCRIPTION =
 export const SITE_DESCRIPTION =
   'An informative online fan community, free for everyone.';
 export const DATE = 'March 18, 2021';
-export const SHORT_DATE = 'Mar 18 - 9:00am PST';
+export const SHORT_DATE = '';
 export const FULL_DATE = 'March 18th 9am Pacific Time (GMT-7)';
 export const TWEET_TEXT = META_DESCRIPTION;
 export const COOKIE = 'user-id';
