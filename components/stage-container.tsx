@@ -56,7 +56,7 @@
                  rel="noopener noreferrer"
                  className={styles.button}
                >
-                 <span>Join the chat on</span>
+                 <span>Join us on</span>
                  <svg
                    xmlns="http://www.w3.org/2000/svg"
                    width="32"
