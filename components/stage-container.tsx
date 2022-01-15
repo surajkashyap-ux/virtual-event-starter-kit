@@ -41,7 +41,6 @@ export default function StageContainer({ stage, allStages }: Props) {
   return (
     <div className={styles.container}>
       <div className={styles.streamContainer}>
-        {loginStatus === 'loggedIn' ? (
           <div className={cn(styles.stream, styleUtils.appear, styleUtils['appear-first'])}>
             <iframe
               allow="autoplay; picture-in-picture"
@@ -80,9 +79,7 @@ export default function StageContainer({ stage, allStages }: Props) {
               </a>
             </div>
           </div>
-        ) : loginStatus === 'loading' ? null : (
-          <ConfEntry onRegister={() => mutate()} />
-        )}
+          
       </div>
       <ScheduleSidebar allStages={updatedStages} />
     </div>
