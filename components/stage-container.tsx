@@ -21,7 +21,6 @@ import useLoginStatus from '@lib/hooks/use-login-status';
 import styles from './stage-container.module.css';
 import styleUtils from './utils.module.css';
 import ScheduleSidebar from './schedule-sidebar';
-import ConfEntry from './conf-entry';
 
 type Props = {
   stage: Stage;
@@ -36,6 +35,7 @@ export default function StageContainer({ stage, allStages }: Props) {
 
   const updatedStages = response.data || [];
   const updatedStage = updatedStages.find((s: Stage) => s.slug === stage.slug) || stage;
+  const { loginStatus, mutate } = useLoginStatus();
 
   return (
     <div className={styles.container}>
