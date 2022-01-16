@@ -38,7 +38,7 @@ function CompanyJobs({ jobs }: Props) {
               <p className={styles.company}>{job.companyName}</p>
               <p className={styles.description}>{job.description}</p>
             </div>
-            <p className={styles.button}>
+            <p className={styles.link}>
               Read it here
               <svg
                 className={styles.icon}
