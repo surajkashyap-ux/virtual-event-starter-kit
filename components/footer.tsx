@@ -27,7 +27,7 @@ export function HostedByVercel() {
       rel="noopener noreferrer"
     >
       <div className={styles['secondary-text']}>Created by </div>
-      ZEUS SN
+      Dr.ZEUS SN
     </a>
   );
 }
