@@ -21,13 +21,13 @@ import { COPYRIGHT_HOLDER, SITE_NAME, CODE_OF_CONDUCT, LEGAL_URL } from '@lib/co
 export function HostedByVercel() {
   return (
     <a
-      href="https://twitter.com/drwrathsavage"
+      href="https://twitter.com/victorvader"
       className={cn(styles['footer-link'], styles['footer-logo'])}
       target="_blank"
       rel="noopener noreferrer"
     >
       <div className={styles['secondary-text']}>Created by </div>
-      Dr.WRATH SAVAGE
+      Victor 'Vic' Vader
     </a>
   );
 }
