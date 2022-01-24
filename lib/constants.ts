@@ -16,7 +16,7 @@
 
 export const SITE_URL = 'https://snydernation.com';
 export const SITE_ORIGIN = process.env.NEXT_PUBLIC_SITE_ORIGIN || new URL(SITE_URL).origin;
-export const TWITTER_USER_NAME = 'drzeussn';
+export const TWITTER_USER_NAME = 'Zeus';
 export const BRAND_NAME = 'SN';
 export const SITE_NAME_MULTILINE = ['Snyder', 'Nation'];
 export const SITE_NAME = 'Snyder Nation';
