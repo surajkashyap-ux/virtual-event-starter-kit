@@ -56,10 +56,6 @@ export const NAVIGATION = [
     route: '/stage/mos'
   },
   {
-    name: 'Code',
-    route: 'https://snydernation.notion.site/snydernation/Code-of-Conduct-487d8952a761440bb50b0ad72c6e4093'
-  },
-  {
     name: 'Contact Us',
     route: 'https://notionforms.io/forms/contact-snyder-nation'
   }
