@@ -43,6 +43,17 @@ export default function Footer() {
           rights reserved.
         </div>
         <div className={styles['footer-center-group']}>
+        <p className={styles['footer-paragraph']}>
+            <a
+              href="https://notionforms.io/forms/contact-snyder-nation"
+              className={styles['footer-link']}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Contact Form
+            </a>
+          </p>
+          <div className={styles['footer-separator']} />
           <p className={styles['footer-paragraph']}>
             <a
               href={CODE_OF_CONDUCT}
@@ -58,12 +69,12 @@ export default function Footer() {
               <div className={styles['footer-separator']} />
               <p className={styles['footer-paragraph']}>
                 <a
-                  href="https://notionforms.io/forms/contact-snyder-nation"
+                  href={LEGAL_URL}
                   className={styles['footer-link']}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Contact Form
+                  Legal
                 </a>
               </p>
             </>
