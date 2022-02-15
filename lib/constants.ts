@@ -16,7 +16,7 @@
 
 export const SITE_URL = 'https://snydernation.com';
 export const SITE_ORIGIN = process.env.NEXT_PUBLIC_SITE_ORIGIN || new URL(SITE_URL).origin;
-export const TWITTER_USER_NAME = 'Zeus';
+export const TWITTER_USER_NAME = 'Z3';
 export const BRAND_NAME = 'SN';
 export const SITE_NAME_MULTILINE = ['Snyder', 'Nation'];
 export const SITE_NAME = 'Snyder Nation';
@@ -61,7 +61,7 @@ export const NAVIGATION = [
   },
   {
     name: 'Contact Us',
-    route: 'https://notionforms.io/forms/contact-snyder-nation'
+    route: 'mailto:z3@snydernation.org'
   }
 ];
 

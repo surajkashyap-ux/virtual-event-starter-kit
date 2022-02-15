@@ -58,12 +58,12 @@ export default function Footer() {
               <div className={styles['footer-separator']} />
               <p className={styles['footer-paragraph']}>
                 <a
-                  href={LEGAL_URL}
+                  href="https://notionforms.io/forms/contact-snyder-nation"
                   className={styles['footer-link']}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Legal
+                  Contact Form
                 </a>
               </p>
             </>
