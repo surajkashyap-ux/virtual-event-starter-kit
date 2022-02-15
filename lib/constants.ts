@@ -56,6 +56,10 @@ export const NAVIGATION = [
     route: '/stage/mos'
   },
   {
+    name: 'Blog',
+    route: 'https://blog.snydernation.com'
+  },
+  {
     name: 'Contact Us',
     route: 'https://notionforms.io/forms/contact-snyder-nation'
   }
