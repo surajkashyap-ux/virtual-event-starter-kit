@@ -64,11 +64,11 @@ export default function Layout({ children, className, hideNav, layoutStyles }: P
             </div>
             <div className={styles.tabs}>
               {NAVIGATION2.map(({ name, route }) => (
-                <Link key={name} href={route} target="_blank">
+                <Link key={name} href={route}>
                   <a
                     className={cn(styles.tab, {
                       [styles['tab-active']]: activeRoute.startsWith(route)
-                    })}
+                    })} target="_blank"
                   >
                     {name}
                   </a>
