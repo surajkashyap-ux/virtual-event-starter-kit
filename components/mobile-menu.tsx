@@ -18,7 +18,7 @@ import { useRef } from 'react';
 import { useRouter } from 'next/router';
 import Link from 'next/link';
 import cn from 'classnames';
-import { NAVIGATION } from '@lib/constants';
+import { NAVIGATION, NAVIGATION2 } from '@lib/constants';
 import { useOverlayTriggerState } from '@react-stately/overlays';
 import { useOverlay, usePreventScroll, useModal, OverlayContainer } from '@react-aria/overlays';
 import { useDialog } from '@react-aria/dialog';
@@ -43,6 +43,19 @@ function ModalDialog(props: Parameters<typeof useOverlay>[0] & Parameters<typeof
         <nav className={styles.nav} {...overlayProps} {...dialogProps} {...modalProps} ref={ref}>
           {NAVIGATION.map(({ name, route }) => (
             <Link key={name} href={route}>
+              <a
+                className={cn(styles['nav-item'], {
+                  [styles['nav-active']]: activeRoute.startsWith(route)
+                })}
+              >
+                {name}
+              </a>
+            </Link>
+          ))}
+        </nav>
+        <nav className={styles.nav} {...overlayProps} {...dialogProps} {...modalProps} ref={ref}>
+          {NAVIGATION2.map(({ name, route }) => (
+            <Link key={name} href={route} target="_blank">
               <a
                 className={cn(styles['nav-item'], {
                   [styles['nav-active']]: activeRoute.startsWith(route)

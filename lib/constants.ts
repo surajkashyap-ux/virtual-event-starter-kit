@@ -56,12 +56,14 @@ export const NAVIGATION = [
     route: '/stage/mos'
   },
   {
-    name: 'Blog',
-    route: 'https://blog.snydernation.com'
-  },
-  {
     name: 'Contact Us',
     route: 'mailto:z3@snydernation.org'
+  }
+];
+export const NAVIGATION2 = [
+  {
+    name: 'Blog',
+    route: 'https://blog.snydernation.com'
   }
 ];
 

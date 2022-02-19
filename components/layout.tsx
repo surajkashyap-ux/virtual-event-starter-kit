@@ -18,7 +18,7 @@ import Link from 'next/link';
 import cn from 'classnames';
 import { useRouter } from 'next/router';
 import { SkipNavContent } from '@reach/skip-nav';
-import { NAVIGATION } from '@lib/constants';
+import { NAVIGATION, NAVIGATION2 } from '@lib/constants';
 import styles from './layout.module.css';
 import MobileMenu from './mobile-menu';
 import Footer, { HostedByVercel } from './footer';
@@ -52,6 +52,19 @@ export default function Layout({ children, className, hideNav, layoutStyles }: P
             <div className={styles.tabs}>
               {NAVIGATION.map(({ name, route }) => (
                 <Link key={name} href={route}>
+                  <a
+                    className={cn(styles.tab, {
+                      [styles['tab-active']]: activeRoute.startsWith(route)
+                    })}
+                  >
+                    {name}
+                  </a>
+                </Link>
+              ))}
+            </div>
+            <div className={styles.tabs}>
+              {NAVIGATION2.map(({ name, route }) => (
+                <Link key={name} href={route} target="_blank">
                   <a
                     className={cn(styles.tab, {
                       [styles['tab-active']]: activeRoute.startsWith(route)
