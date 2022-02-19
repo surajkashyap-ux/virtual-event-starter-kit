@@ -55,11 +55,11 @@ function ModalDialog(props: Parameters<typeof useOverlay>[0] & Parameters<typeof
         </nav>
         <nav className={styles.nav} {...overlayProps} {...dialogProps} {...modalProps} ref={ref}>
           {NAVIGATION2.map(({ name, route }) => (
-            <Link key={name} href={route} target="_blank">
+            <Link key={name} href={route}>
               <a
                 className={cn(styles['nav-item'], {
                   [styles['nav-active']]: activeRoute.startsWith(route)
-                })}
+                })} target="_blank"
               >
                 {name}
               </a>
