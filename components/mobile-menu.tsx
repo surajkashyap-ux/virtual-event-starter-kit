@@ -52,8 +52,6 @@ function ModalDialog(props: Parameters<typeof useOverlay>[0] & Parameters<typeof
               </a>
             </Link>
           ))}
-        </nav>
-        <nav className={styles.nav} {...overlayProps} {...dialogProps} {...modalProps} ref={ref}>
           {NAVIGATION2.map(({ name, route }) => (
             <Link key={name} href={route}>
               <a

@@ -61,9 +61,7 @@ export default function Layout({ children, className, hideNav, layoutStyles }: P
                   </a>
                 </Link>
               ))}
-            </div>
-            <div className={styles.tabs}>
-              {NAVIGATION2.map(({ name, route }) => (
+               {NAVIGATION2.map(({ name, route }) => (
                 <Link key={name} href={route}>
                   <a
                     className={cn(styles.tab, {
